@@ -115,6 +115,7 @@ Columns can all have same size avoiding the number of the colum in the class nam
   </div>
 </div>
 ```
+Containers and columns have 15px of padding left and right, and rows 1rem of margin-top. You can remove them all applying the class `.no-space`
 
 #### Offset
 You can offset grid columns to the right using `.offset-md-* `
