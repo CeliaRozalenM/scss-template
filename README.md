@@ -76,7 +76,7 @@ A simple architectural scss and js template to start new awesome projects 🤩
 ## Usage
 ### Grid
 
-Simple, it works like [Bootstrap](https://www.google.com) 🙌🏼
+Simple, it works like [Bootstrap v4](https://www.google.com) 🙌🏼
 
 Use `.container` class to create a new block and `.row` to create a row on it. The columns class start with `col` following by the number of columns you want to include, and the prefix size name of the container you want to apply this column structure.
 
@@ -98,7 +98,7 @@ Use `.container` class to create a new block and `.row` to create a row on it. T
 
 You can have a  **full-width** container by applying `container-fluid` class.
 
-Columns can all have same size avoiding the number of columns.
+Columns can all have same size avoiding the number of the colum in the class name.
 
 ```
 <div class="container-fluid">
@@ -113,6 +113,15 @@ Columns can all have same size avoiding the number of columns.
       This is a column
     </div>
   </div>
+</div>
+```
+
+#### Offset
+You can offset grid columns to the right using `.offset-md-* `
+```
+<div class="row">
+  <div class="col-md-4">.col-md-4</div>
+  <div class="col-md-4 offset-md-4">.col-md-4 .offset-md-4</div>
 </div>
 ```
 
