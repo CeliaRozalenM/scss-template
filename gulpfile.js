@@ -28,7 +28,7 @@ gulp.task('styles', function() {
 
 gulp.task('scripts', function() {
     gulp.src([
-        'src/js/vendors/*.js', 'src/js/scripts.js'
+        'src/js/vendors/*.js', 'src/js/*.js'
     ])
         .pipe(sourcemaps.init())
         .pipe(concat('scripts.js'))
